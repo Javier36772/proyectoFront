@@ -1,0 +1,179 @@
+body {
+    background-color: #0D0D0D;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .user-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232323;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  
+  .banner-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .profile-image-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: -75px;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .user-profile-info {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .follow-btn,
+  .following-btn {
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .following-btn {
+    background-color: #38a1f3;
+  }
+  
+  .user-posts {
+    width: 70%; /* Ajustar el ancho según sea necesario */
+    margin-top: 20px;
+  }
+  
+  .post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%; /* Ajustar el ancho según sea necesario */
+    margin: 20px auto;
+  }
+  
+  textarea,
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #1da1f2;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .post {
+    background-color: #232323;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-content {
+    font-size: 16px;
+  }
+  
+  .post-date {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .purchased-games-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%; /* Ajustar el ancho según sea necesario */
+    margin: 20px auto;
+  }
+  
+  .purchased-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .purchased-game {
+    width: 200px;
+    height: 250px;
+    background-color: #232323;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .purchased-game img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .purchased-game h3,
+  .purchased-game p {
+    margin: 10px;
+  }

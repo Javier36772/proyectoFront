@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.navbar {
+  background-color: #181a1b;
+  color: white;
+  padding: 10px 0;
+
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px; /* O ajusta según tus necesidades */
+  margin: 0 auto; /* Centra el contenido en la página */
+  font-family: 'Lato', sans-serif;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3em; /* Ajusta el tamaño del logo según tus preferencias */
+  margin-right: 0; /* Quita margen a la derecha del logo */
+  order: 1; /* Coloca el logo antes que los iconos y el buscador */
+}
+
+.search-bar {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 10px;
+  margin: 0 20px; /* Añade margen a la izquierda y derecha del input */
+  order: 2; /* Coloca el buscador después del logo y antes de los iconos */
+  flex-grow: 1; /* Ajusta el ancho del input según el espacio disponible */
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em; /* Ajusta el tamaño de la fuente según tus preferencias */
+  order: 3; /* Coloca los iconos después del logo, buscador y nav-list */
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: gray;
+}
+
+.nav-list i {
+  font-size: 1.5em; /* Ajusta el tamaño de los iconos según tus preferencias */
+}
